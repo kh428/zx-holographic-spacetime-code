@@ -1,0 +1,24 @@
+zxholo — third-party attribution
+
+This bundle redistributes the following third-party package:
+
+  LEGO_HQEC
+  Copyright 2024 TU Delft
+  Licensed under the Apache License, Version 2.0
+  See vendor/LEGO_HQEC/LICENSE.md for the license text,
+  and vendor/LEGO_HQEC/PROVENANCE.md for details of the copy.
+
+The zxholo Python package itself (under zxholo/) and all top-level
+files (README.md, docs/, examples/, notebooks/, tests/, pyproject.toml,
+requirements.txt) are the original work of the zxholo authors and
+licensed under the top-level LICENSE file.
+
+The spacetime (foliated) additions under spacetime/, scripts/ and
+data/{matrices,results} use the following additional components as
+dependencies (not redistributed here):
+- pyzx (Apache-2.0), including its Pauli-web machinery (pyzx.web):
+  https://github.com/zxcalc/pyzx
+- ldpc: https://pypi.org/project/ldpc/
+- hypertiling (MIT)
+The interactive 3D viewer pages are rendered with the pyzx 3D viewer:
+https://github.com/kh428/pyzx_3d_viewer

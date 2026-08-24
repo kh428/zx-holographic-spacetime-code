@@ -1,0 +1,27 @@
+# Core (tested versions)
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.1
+pyzx==0.10.5
+ldpc==2.4.1
+hypertiling==1.5.1
+networkx==3.6.1
+joblib>=1.3
+pytest==9.1.1
+
+# LEGO_HQEC is vendored in this repository:
+#   pip install -e vendor/LEGO_HQEC
+
+# optional: quantum simulation / cross-checks used by some decoders
+# stim>=1.14
+# sinter>=1.14
+# PyMatching>=2.3
+# bposd>=2.0
+# galois>=0.4
+# numba>=0.60
+# pandas>=2.0
+
+# optional: notebooks / 3D visualisation
+# ipykernel>=6.0
+# pyvista>=0.44
+# vtk>=9.3
