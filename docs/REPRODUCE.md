@@ -152,6 +152,15 @@ priors. Cached failure counts for the paper's figures are in `data/results/`:
 - `reference_points.json` — two points re-simulated with this repository's
   code in a clean environment, for direct comparison
 
+## Depolarising noise (BP+OSD-3)
+
+`python scripts/run_pauli.py <matrices.npz> [osd_order] [shots] [batches]`
+decodes depolarising noise (X, Y, Z with probability p/3 per wire) with
+BP+OSD (product-sum, 50 iterations, combination-sweep OSD; order 3 by
+default) and static priors. Results are banked after every batch. Cached
+counts for the K=2 family are in `data/results/pauli_K2.json`
+(the low-rate n=2 points carry 50000 shots).
+
 ## Webs and viewers
 
 Closed webs (detectors) and open webs (logical correlators) of a block are

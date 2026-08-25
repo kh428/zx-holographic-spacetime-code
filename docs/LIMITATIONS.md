@@ -144,8 +144,10 @@ and as the `chunk=` hook entry point for custom ZX-tile decorations.
 - The erasure model is phenomenological: wires and measurement events of the
   drawn diagram are the fault locations; there is no circuit-level structure
   inside the measurement events.
-- Only erasure noise is simulated. Pauli-noise performance may be more
-  sensitive to the choice of web basis and is not covered here.
+- Pauli (depolarising) noise is simulated only at fixed depth K=2; the
+  depth-matched family under Pauli noise is not covered here. An arbitrary
+  web basis can yield a poorly structured Tanner graph for belief-propagation
+  decoding; no Pauli-adapted basis search was performed.
 - The fixed-depth and depth-matched comparisons are finite-size studies of
   n = 0, 1, 2; no size-independent threshold is claimed.
 - The direct fold (`scripts/build_new_matrices.py`) is pure Python and slow

@@ -181,7 +181,7 @@ the paper's named authors.
 This repository also contains the companion code for the spacetime
 (foliated) constructions of the same paper: the bond-extended
 $\{4,5\}$ code family, its rim-adapted check basis, the spacetime
-decoding matrices, and the erasure simulations. Pauli webs are
+decoding matrices, and the erasure and depolarising-noise simulations. Pauli webs are
 computed with the web machinery of [pyzx](https://github.com/zxcalc/pyzx)
 (`pyzx.web`), the web-finding algorithm used throughout this work.
 
